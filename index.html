@@ -1,10 +1,203 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Prueba Servidor</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
+  <head>
+      <title>Nuevas Tecnologias</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
+	  
+      <!--Bootstrap-->
+      <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	  
+      <!-- Tipos de letra -->
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+      <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	 
+	  <link href="css/index.css" rel="stylesheet">
+   </head>
+   <body id="page-top">
+
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+		  <div class="container">
+			 <!-- Fecha -->
+			  <h6>
+				   <script type="text/javascript">
+					  var date = new Date();
+					  var d  = date.getDate();
+					  var day = (d < 10) ? '0' + d : d;
+					  var m = date.getMonth() + 1;
+					  var month = (m < 10) ? '0' + m : m;
+					  var yy = date.getYear();
+					  var year = (yy < 1000) ? yy + 1900 : yy;
+					  document.write(day + "/" + month + "/" + year);
+					</script>
+			   </h6>
+			   
+			    <a class="navbar-brand js-scroll-trigger" href="#page-top">Nuevas Tecnologias</a>
+				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+					Menu
+					<i class="fa fa-bars"></i>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+				  <ul class="navbar-nav text-uppercase ml-auto">
+						<li class="nav-item">
+						  <a class="nav-link js-scroll-trigger" href="#temas">Temas de clase</a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link js-scroll-trigger" href="#metodologia">Metodología</a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link js-scroll-trigger" href="#aprenderas">¿Qué aprenderás?</a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link js-scroll-trigger" href="#preguntas">Preguntas del curso</a>
+						</li>
+				  </ul>
+				</div>
+		  </div>
+		</nav>
+
+	  <!-- Temas clase -->
+	   <section  id="temas">
+		  <div class="container">
+			   <div class="row">
+				  <div class="col-lg-12 text-center">
+					 <h2 class="section-heading text-uppercase">Temas de clase</h2>
+					 <br>
+				  </div>
+			   </div>
+			   <div class="row">
+				   <div class="col-lg-12">
+						<ul class="timeline">
+							<li>
+								<div class="timeline-image">
+									<img class="rounded-circle img-fluid" src="img/temas/1.jpg" alt="">
+								</div>
+								<div class="timeline-panel">
+								   <div class="timeline-heading">
+										<h4>Patrón Arquitectural MVC</h4>
+									</div>
+									<div class="timeline-body">
+										<p class="text-muted" align="justify"> Este tema abarca lo siguiente:  
+											-Generalidades de Estilos y patrones arquitectónicos.
+											<br>-Patrón arquitectónico Modelo-Vista-Controlador servidor de Aplicaciones(Glassfish).
+											<br>-Repositorios (Git haciendo uso de Github). </br>
+										</p>
+									</div>
+								</div>
+							</li>
+							<li class="timeline-inverted">
+								<div class="timeline-image">
+									  <img class="rounded-circle img-fluid" src="img/temas/2.png" alt="">
+								</div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+									  <h4>Modelo utilizando JPA</h4>
+									</div>
+									<div class="timeline-body">
+										<p class="text-muted"align="justify">Este tema abarca lo siguiente: -Configuración con bases de datos relacionales (Derby, MySQL).
+											<br>-Java Persistence API–JPA.
+											<br>-Anotaciones Operaciones Transaccionales.
+										</p>
+									</div>
+								</div>
+							</li>
+						    <li>
+								<div class="timeline-image">
+								  <img class="rounded-circle img-fluid" src="img/temas/1.jpg" alt="">
+								</div>
+								<div class="timeline-panel">
+								  <div class="timeline-heading">
+									 <h4>Patrón Arquitectural MVC</h4>
+								  </div>
+								  <div class="timeline-body">
+										<p class="text-muted" align="justify"> Este tema abarca lo siguiente:  
+											-Generalidades de Estilos y patrones arquitectónicos.
+											<br>-Patrón arquitectónico Modelo-Vista-Controlador servidor de Aplicaciones(Glassfish).
+											<br>-Repositorios (Git haciendo uso de Github). </br>
+										</p>
+								  </div>
+								</div>
+						    </li>
+						    <li class="timeline-inverted">
+								<div class="timeline-image">
+								   <img class="rounded-circle img-fluid" src="img/temas/2.png" alt="">
+								</div>
+								<div class="timeline-panel">
+								  <div class="timeline-heading">
+									 <h4>Modelo utilizando JPA</h4>
+								  </div>
+								  <div class="timeline-body">
+									  <p class="text-muted"align="justify">Este tema abarca lo siguiente: -Configuración con bases de datos relacionales (Derby, MySQL).
+										  <br>-Java Persistence API–JPA.
+										  <br>-Anotaciones Operaciones Transaccionales.
+									  </p>
+								  </div>
+								</div>
+						    </li>
+							<li>
+								<div class="timeline-image">
+								   <img class="rounded-circle img-fluid" src="img/temas/1.jpg" alt="">
+								</div>
+								<div class="timeline-panel">
+								  <div class="timeline-heading">
+									 <h4>Patrón Arquitectural MVC</h4>
+								  </div>
+								  <div class="timeline-body">
+									<p class="text-muted" align="justify"> Este tema abarca lo siguiente:  
+									  -Generalidades de Estilos y patrones arquitectónicos.
+									  <br>-Patrón arquitectónico Modelo-Vista-Controlador servidor de Aplicaciones(Glassfish).
+									  <br>-Repositorios (Git haciendo uso de Github). </br>
+									</p>
+								  </div>
+								</div>
+						    </li>
+						</ul>	
+				    </div>
+			   </div>
+		   </div>
+	    </section>
+	
+		<!-- Metodologia -->
+		<section id="metodologia">
+		  <div class="container">
+				<div class="row">
+				  <div class="col-lg-12 text-center">
+						<h2 class="section-heading text-uppercase">Metodología</h2>
+						<br></br>
+						<h3 class="section-subheading text-muted">- Aula virtual.</h3>
+						<h3 class="section-subheading text-muted">- Clase teorico/practica.</h3>
+						<h3 class="section-subheading text-muted"> -Quices y Talleres.</h3>
+						<h3 class="section-subheading text-muted">- Tareas y actividades en clase.</h3>
+						<h3 class="section-subheading text-muted">- Proyecto.</h3>
+				  </div>
+				</div>
+		   </div>
+		</section>
+
+		<!-- Footer -->
+	  <footer>
+		  <div class="container">
+			<center>
+			  <div class="col-md-6">
+					<span class="copyright">Daniela CH &copy Johanna GA &copy; Carlos QC &copy
+					<br>
+					Nuevas Tecnologías De Desarrollo 2018</span>
+			  </div>
+			</center>
+		  </div>
+		</footer>
+
+		<!-- JavaScript -->
+		<script src="bootstrap/js/jquery.min.js"></script>
+		<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script src="bootstrap/js/jquery.easing.min.js"></script>
+		<script type="text/javascript">!function(a){"use strict";a('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function(){if(location.pathname.replace(/^\//,"")==this.pathname.replace(/^\//,"")&&location.hostname==this.hostname){var o=a(this.hash);
+			if((o=o.length?o:a("[name="+this.hash.slice(1)+"]")).length)return a("html, body").animate({scrollTop:o.offset().top-54},1e3,"easeInOutExpo"),!1}}),a(".js-scroll-trigger").click(function(){a(".navbar-collapse").collapse("hide")})
+			,a("body").scrollspy({target:"#mainNav",offset:56});var o=function(){a("#mainNav").offset().top>100?a("#mainNav").addClass("navbar-shrink"):a("#mainNav").removeClass("navbar-shrink")};o(),a(window).scroll(o),a(".portfolio-modal")
+			.on("show.bs.modal",function(o){a(".navbar").addClass("d-none")}),a(".portfolio-modal").on("hidden.bs.modal",function(o){a(".navbar").removeClass("d-none")})}(jQuery);
+		</script>
+  </body>
 </html>
